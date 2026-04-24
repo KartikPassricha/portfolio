@@ -41,16 +41,6 @@ function Contact() {
           </a>
         </p>
         
-        <p>
-          <strong>Resume:</strong>{" "}
-          <a
-            href={`${process.env.PUBLIC_URL}/resume.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          View Resume (PDF)
-          </a>
-        </p>
       </div>
     </section>
   );
